@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detikfinance</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="css/registerstyle.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="inner-width">
+          <a href="index.html" class="logo">Detikfinance</a>
+          <button class="menu-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar-menu">
+            <a href="#home">Beranda</a>
+            <a href="#about">About</a>
+            <a href="#mechanism">Mechanism</a>
+            <a href="#fasilitas">Fasilitas</a>
+            <a href="#update">Latest Update</a>
+            <a href="#register.html">Register</a>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home">
+      </section>
+
+        <div class="container">
+            <h2>Form Registrasi</h2><br>
+            <form action="proses_registrasi.php" method="POST">
+                <div class="form-group">
+                    <input type="text" id="nama_perusahaan" placeholder="Nama Perusahaan" name="nama_perusahaan" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="nomor_telepon" placeholder="Nomor Telpon" name="nomor_telepon" required>
+                    <label for="nomor_telepon">Isi hanya angka</label>
+                </div>
+                <div class="form-group">
+                  <input type="text" id="tentang" placeholder="Tentang Perusahaan" name="tentang" required>
+              </div>
+                <div class="form-group">
+                    <input type="url" id="link_website" placeholder="Link Website" name="link_website" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+
+      <footer>
+        <div class="inner-width">
+            <h2>Detikfinance</h2>
+            <p>Detikfinance memberikan ruang kepada para startup di Indonesia untuk menunjukkan, <br> serta mempromosikan brand mereka untuk mendapatkan perhatian dari venture capital atau angel investor</p>
+          <div class="sm">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </footer>
+</body>
